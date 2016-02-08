@@ -34,22 +34,22 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -63,44 +63,44 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -111,7 +111,7 @@
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -135,7 +135,7 @@
 <wire x1="0" y1="73.9775" x2="0" y2="1.27" width="0" layer="20"/>
 <wire x1="0" y1="1.27" x2="1.27" y2="0" width="0" layer="20"/>
 <wire x1="1.27" y1="0" x2="71.755" y2="0" width="0" layer="20"/>
-<text x="29.5275" y="32.0675" size="0.8128" layer="25" font="vector" align="top-right">GND
+<text x="26.67" y="28.575" size="0.8128" layer="25" font="vector">GND
 TX
 RX</text>
 <text x="22.5425" y="20.32" size="0.8128" layer="25" font="vector">Reset</text>
@@ -148,6 +148,8 @@ www.custom-ds.com</text>
 <hole x="52.07" y="65.0875" drill="3.2"/>
 <text x="60.0075" y="41.275" size="1.016" layer="25" font="vector" align="bottom-center">THIS 
 SIDE UP</text>
+<text x="63.1825" y="39.37" size="0.6096" layer="25" font="vector">Q3</text>
+<circle x="13.335" y="69.85" radius="0.4490125" width="0.254" layer="25"/>
 </plain>
 <libraries>
 <library name="sparkfun-boards">
@@ -2282,7 +2284,7 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="399-1166-1-ND" x="45.085" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C3" library="resistor" package="C0805" value="47nF" x="42.545" y="20.6375" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.624" y="21.5265" size="0.6096" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="44.831" y="21.209" size="0.6096" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="43.434" y="22.9235" size="1.27" layer="27" rot="R180"/>
 <attribute name="DIGIKEY" value="399-1166-1-ND" x="42.545" y="20.6375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -2297,7 +2299,7 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="311-10.0KCRCT-ND" x="32.385" y="19.3675" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R8" library="resistor" package="R0805" value="4.7k" x="32.385" y="27.6225" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.369" y="26.543" size="0.6096" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="31.0515" y="26.8605" size="0.6096" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="34.671" y="26.8605" size="1.27" layer="27" rot="R90"/>
 <attribute name="DIGIKEY" value="311-4.7KARCT-ND" x="32.385" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -2378,12 +2380,12 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="MMBT2222AFSCT-ND" x="47.625" y="39.37" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q1" library="transistor-npn" package="SOT23-BEC" value="2N2222" x="17.78" y="40.9575" smashed="yes" rot="R270">
-<attribute name="NAME" x="19.05" y="39.0525" size="0.6096" layer="25" font="vector"/>
+<attribute name="NAME" x="15.875" y="43.18" size="0.6096" layer="25" font="vector"/>
 <attribute name="VALUE" x="14.605" y="42.8625" size="1.27" layer="27" rot="R270"/>
 <attribute name="DIGIKEY" value="MMBT2222AFSCT-ND" x="17.78" y="40.9575" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R1" library="resistor" package="R0805" value="1M" x="12.3825" y="39.0525" smashed="yes">
-<attribute name="NAME" x="9.5885" y="39.497" size="0.6096" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="9.5885" y="38.5445" size="0.6096" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="11.6205" y="36.7665" size="1.27" layer="27"/>
 <attribute name="DIGIKEY" value="311-1.0MARCT-ND" x="12.3825" y="39.0525" size="1.778" layer="27" display="off"/>
 </element>
@@ -2423,7 +2425,7 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="311-1361-1-ND" x="53.0225" y="11.7475" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C15" library="resistor" package="C0805" value=".1uF" x="42.545" y="18.415" smashed="yes">
-<attribute name="NAME" x="42.291" y="16.256" size="0.6096" layer="25" font="vector"/>
+<attribute name="NAME" x="41.656" y="16.5735" size="0.6096" layer="25" font="vector"/>
 <attribute name="VALUE" x="41.656" y="16.129" size="1.27" layer="27"/>
 <attribute name="DIGIKEY" value="311-1361-1-ND" x="42.545" y="18.415" size="1.778" layer="27" display="off"/>
 </element>
@@ -2483,7 +2485,7 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="311-1361-1-ND" x="47.625" y="33.3375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R15" library="resistor" package="R0805" value="10k" x="40.005" y="33.9725" smashed="yes" rot="R270">
-<attribute name="NAME" x="38.1635" y="34.7345" size="0.6096" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="40.1955" y="31.1785" size="0.6096" layer="25" font="vector"/>
 <attribute name="VALUE" x="37.719" y="34.7345" size="1.27" layer="27" rot="R270"/>
 <attribute name="DIGIKEY" value="311-10.0KCRCT-ND" x="40.005" y="33.9725" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -2514,12 +2516,12 @@ design rules under a new name.</description>
 <attribute name="DIGIKEY" value="311-10.0KCRCT-ND" x="10.795" y="21.59" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C1" library="resistor" package="C0805" value=".1uF" x="15.24" y="21.59" smashed="yes">
-<attribute name="NAME" x="15.494" y="20.2565" size="0.6096" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="16.764" y="20.2565" size="0.6096" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="14.351" y="19.304" size="1.27" layer="27"/>
 <attribute name="DIGIKEY" value="311-1361-1-ND" x="15.24" y="21.59" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SG1" library="SparkFun-Electromechanical" package="BUZZER-12MM-NS" value="BUZZERNS" x="30.7975" y="40.005" smashed="yes">
-<attribute name="NAME" x="37.7825" y="44.45" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="32.7025" y="42.2275" size="0.6096" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="27.6225" y="36.957" size="0.6096" layer="27" ratio="10"/>
 <attribute name="DIGIKEY" value="102-1155-ND" x="30.7975" y="40.005" size="1.778" layer="27" display="off"/>
 </element>
@@ -2664,7 +2666,7 @@ design rules under a new name.</description>
 </element>
 <element name="R23" library="resistor" package="R0805" value="10k" x="64.77" y="24.765" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="311-10.0KCRCT-ND" x="64.77" y="24.765" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="65.532" y="23.4315" size="0.6096" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="67.564" y="24.003" size="0.6096" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="65.532" y="27.051" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R24" library="resistor" package="R0805" value="10k" x="40.005" y="43.4975" smashed="yes" rot="R90">
@@ -2845,9 +2847,9 @@ design rules under a new name.</description>
 <via x="23.8125" y="46.355" extent="1-16" drill="0.6" shape="octagon"/>
 <via x="23.8125" y="53.34" extent="1-16" drill="0.6" shape="octagon"/>
 <via x="13.335" y="27.305" extent="1-16" drill="0.6" shape="octagon"/>
-<via x="33.9725" y="43.815" extent="1-16" drill="0.6" shape="octagon"/>
+<via x="35.8775" y="42.8625" extent="1-16" drill="0.6" shape="octagon"/>
 <via x="35.8775" y="53.34" extent="1-16" drill="0.6" shape="octagon"/>
-<via x="32.7025" y="58.42" extent="1-16" drill="0.6" shape="octagon"/>
+<via x="37.7825" y="57.15" extent="1-16" drill="0.6" shape="octagon"/>
 <via x="48.26" y="57.15" extent="1-16" drill="0.6" shape="octagon"/>
 <via x="31.75" y="39.37" extent="1-16" drill="0.6" shape="octagon"/>
 <via x="44.7675" y="53.34" extent="1-16" drill="0.6" shape="octagon"/>
@@ -2889,7 +2891,6 @@ design rules under a new name.</description>
 <via x="33.655" y="16.1925" extent="1-16" drill="0.6" shape="octagon"/>
 <via x="24.765" y="17.145" extent="1-16" drill="0.6" shape="octagon"/>
 <via x="16.51" y="14.605" extent="1-16" drill="0.6" shape="octagon"/>
-<via x="16.51" y="19.685" extent="1-16" drill="0.6" shape="octagon"/>
 <via x="6.6675" y="19.685" extent="1-16" drill="0.6" shape="octagon"/>
 <via x="6.6675" y="14.605" extent="1-16" drill="0.6" shape="octagon"/>
 <via x="44.7675" y="14.605" extent="1-16" drill="0.6" shape="octagon"/>
@@ -2903,7 +2904,7 @@ design rules under a new name.</description>
 <via x="35.8775" y="46.355" extent="1-16" drill="0.6" shape="octagon"/>
 <via x="41.91" y="26.3525" extent="1-16" drill="0.6" shape="octagon"/>
 <via x="19.3675" y="20.6375" extent="1-16" drill="0.6" shape="octagon"/>
-<via x="16.51" y="17.145" extent="1-16" drill="0.6" shape="octagon"/>
+<via x="16.51" y="18.415" extent="1-16" drill="0.6" shape="octagon"/>
 <via x="13.97" y="19.685" extent="1-16" drill="0.6" shape="octagon"/>
 <via x="66.04" y="18.0975" extent="1-16" drill="0.6" shape="octagon"/>
 <contactref element="U8" pad="7"/>
@@ -2917,7 +2918,7 @@ design rules under a new name.</description>
 <via x="29.845" y="69.85" extent="1-16" drill="0.6" shape="octagon"/>
 <contactref element="C23" pad="2"/>
 <contactref element="C24" pad="2"/>
-<via x="37.7825" y="43.18" extent="1-16" drill="0.6" shape="octagon"/>
+<via x="38.4175" y="42.8625" extent="1-16" drill="0.6" shape="octagon"/>
 </signal>
 <signal name="N$6">
 <contactref element="R10" pad="1"/>

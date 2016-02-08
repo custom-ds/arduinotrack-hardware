@@ -19215,6 +19215,7 @@ Typical applications:&lt;p&gt;
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
+<part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19288,8 +19289,8 @@ Typical applications:&lt;p&gt;
 <instance part="R17" gate="G$1" x="320.04" y="25.4" rot="R90">
 <attribute name="DIGIKEY" x="320.04" y="25.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R6" gate="G$1" x="172.72" y="96.52" rot="R90">
-<attribute name="DIGIKEY" x="172.72" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R6" gate="G$1" x="170.18" y="96.52" rot="R90">
+<attribute name="DIGIKEY" x="170.18" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="LED2" gate="G$1" x="261.62" y="91.44">
 <attribute name="DIGIKEY" x="261.62" y="91.44" size="1.778" layer="96" display="off"/>
@@ -19463,9 +19464,9 @@ Typical applications:&lt;p&gt;
 <instance part="GND20" gate="1" x="264.16" y="0"/>
 <instance part="GND21" gate="1" x="213.36" y="71.12"/>
 <instance part="+3V2" gate="G$1" x="177.8" y="109.22"/>
-<instance part="+3V3" gate="G$1" x="172.72" y="109.22"/>
-<instance part="R19" gate="G$1" x="180.34" y="96.52" rot="R90">
-<attribute name="DIGIKEY" x="180.34" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="+3V3" gate="G$1" x="170.18" y="109.22"/>
+<instance part="R19" gate="G$1" x="177.8" y="96.52" rot="R90">
+<attribute name="DIGIKEY" x="177.8" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C22" gate="G$1" x="500.38" y="40.64">
 <attribute name="DIGIKEY" x="500.38" y="40.64" size="1.778" layer="96" display="off"/>
@@ -19487,6 +19488,7 @@ Typical applications:&lt;p&gt;
 <instance part="+3V4" gate="G$1" x="208.28" y="27.94"/>
 <instance part="GND9" gate="1" x="193.04" y="15.24"/>
 <instance part="P+6" gate="1" x="43.18" y="38.1"/>
+<instance part="+3V5" gate="G$1" x="35.56" y="38.1"/>
 </instances>
 <busses>
 </busses>
@@ -20288,12 +20290,12 @@ Typical applications:&lt;p&gt;
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="180.34" y1="101.6" x2="177.8" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="101.6" x2="177.8" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<wire x1="172.72" y1="101.6" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="101.6" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V32" gate="G$1" pin="+3V3"/>
@@ -20303,6 +20305,12 @@ Typical applications:&lt;p&gt;
 <wire x1="177.8" y1="48.26" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="55.88" x2="185.42" y2="55.88" width="0.1524" layer="91"/>
 <junction x="185.42" y="55.88"/>
+</segment>
+<segment>
+<pinref part="SH11" gate="G$1" pin="3.3V"/>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<wire x1="63.5" y1="27.94" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="27.94" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$60" class="0">
@@ -20419,12 +20427,12 @@ Typical applications:&lt;p&gt;
 <net name="SCL" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="SCL"/>
-<wire x1="180.34" y1="78.74" x2="172.72" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="78.74" x2="170.18" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="78.74" x2="170.18" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="91.44" x2="172.72" y2="78.74" width="0.1524" layer="91"/>
-<junction x="172.72" y="78.74"/>
-<label x="170.18" y="78.74" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="170.18" y1="78.74" x2="167.64" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="91.44" x2="170.18" y2="78.74" width="0.1524" layer="91"/>
+<junction x="170.18" y="78.74"/>
+<label x="167.64" y="78.74" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="PC5(ADC5/SCL)"/>
@@ -20442,10 +20450,10 @@ Typical applications:&lt;p&gt;
 <pinref part="U8" gate="G$1" pin="SDA"/>
 <wire x1="180.34" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="91.44" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="83.82" x2="167.64" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="91.44" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
 <junction x="177.8" y="83.82"/>
-<label x="170.18" y="83.82" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<label x="167.64" y="83.82" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="PC4(ADC4/SDA)"/>

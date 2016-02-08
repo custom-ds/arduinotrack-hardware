@@ -18958,7 +18958,9 @@ Typical applications:&lt;p&gt;
 </class>
 </classes>
 <parts>
-<part name="SH11" library="sparkfun-boards" deviceset="ARDUINO_R3_SHIELD" device="" value="ARDUINO_R3_SHIELD"/>
+<part name="SH11" library="sparkfun-boards" deviceset="ARDUINO_R3_SHIELD" device="" value="ARDUINO_R3_SHIELD">
+<attribute name="DIGIKEY" value="SAM1112-32-ND"/>
+</part>
 <part name="U9" library="linear" deviceset="LMV324?*" device="M">
 <attribute name="DIGIKEY" value="LT1679CS#PBF-ND"/>
 </part>
@@ -19176,7 +19178,7 @@ Typical applications:&lt;p&gt;
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="V+" device=""/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="SMD">
-<attribute name="DIGIKEY" value="CKN9363CT-ND"/>
+<attribute name="DIGIKEY" value="CKN9104CT-ND"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="C14" library="resistor" deviceset="CPOL-US" device="153CLV-0605" value="47uF">
@@ -19186,7 +19188,9 @@ Typical applications:&lt;p&gt;
 <attribute name="DIGIKEY" value="568-1749-1-ND"/>
 </part>
 <part name="U3" library="Ava" deviceset="UBLOX_MAX" device=""/>
-<part name="U8" library="SparkFun-Sensors" deviceset="BMP180" device=""/>
+<part name="U8" library="SparkFun-Sensors" deviceset="BMP180" device="">
+<attribute name="DIGIKEY" value="828-1027-1-ND"/>
+</part>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
@@ -19198,7 +19202,9 @@ Typical applications:&lt;p&gt;
 <part name="C22" library="resistor" deviceset="C-US" device="C0805" value=".1uF">
 <attribute name="DIGIKEY" value="311-1361-1-ND"/>
 </part>
-<part name="U$1" library="Ava" deviceset="BSS138" device=""/>
+<part name="U$1" library="Ava" deviceset="BSS138" device="">
+<attribute name="DIGIKEY" value="BSS138CT-ND"/>
+</part>
 <part name="R20" library="resistor" deviceset="R-US_" device="R0805" value="100k">
 <attribute name="DIGIKEY" value="311-100KCRCT-ND"/>
 </part>
@@ -19222,7 +19228,9 @@ Typical applications:&lt;p&gt;
 <plain>
 </plain>
 <instances>
-<instance part="SH11" gate="G$1" x="76.2" y="40.64"/>
+<instance part="SH11" gate="G$1" x="76.2" y="40.64">
+<attribute name="DIGIKEY" x="76.2" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U9" gate="A" x="152.4" y="142.24">
 <attribute name="DIGIKEY" x="152.4" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
@@ -19459,7 +19467,9 @@ Typical applications:&lt;p&gt;
 <attribute name="DIGIKEY" x="127" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="U3" gate="G$1" x="238.76" y="22.86" rot="R180"/>
-<instance part="U8" gate="G$1" x="195.58" y="81.28"/>
+<instance part="U8" gate="G$1" x="195.58" y="81.28">
+<attribute name="DIGIKEY" x="195.58" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="+3V1" gate="G$1" x="213.36" y="99.06"/>
 <instance part="GND20" gate="1" x="264.16" y="0"/>
 <instance part="GND21" gate="1" x="213.36" y="71.12"/>
@@ -19471,7 +19481,9 @@ Typical applications:&lt;p&gt;
 <instance part="C22" gate="G$1" x="500.38" y="40.64">
 <attribute name="DIGIKEY" x="500.38" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$1" gate="G$1" x="175.26" y="45.72" rot="MR270"/>
+<instance part="U$1" gate="G$1" x="175.26" y="45.72" rot="MR270">
+<attribute name="DIGIKEY" x="175.26" y="45.72" size="1.778" layer="96" rot="MR270" display="off"/>
+</instance>
 <instance part="R20" gate="G$1" x="193.04" y="27.94" rot="R270">
 <attribute name="DIGIKEY" x="193.04" y="27.94" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>

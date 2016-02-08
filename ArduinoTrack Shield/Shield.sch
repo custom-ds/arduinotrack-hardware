@@ -18211,8 +18211,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
-<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -18951,9 +18949,10 @@ Typical applications:&lt;p&gt;
 </classes>
 <parts>
 <part name="SH11" library="sparkfun-boards" deviceset="ARDUINO_R3_SHIELD" device="" value="ARDUINO_R3_SHIELD">
-<attribute name="DIGIKEY" value="SAM1112-32-ND"/>
+<attribute name="SPARKFUN" value="PRT-10007"/>
 </part>
 <part name="U9" library="linear" deviceset="LMV324?*" device="M">
+<attribute name="ALT-PART" value="MCP6L04T-E/SL"/>
 <attribute name="DIGIKEY" value="MCP6L04T-E/SLCT-ND"/>
 </part>
 <part name="C2" library="resistor" deviceset="C-US" device="C0805" value="10nF">
@@ -19119,7 +19118,9 @@ Typical applications:&lt;p&gt;
 <part name="C7" library="resistor" deviceset="C-US" device="C0805" value=".1uF">
 <attribute name="DIGIKEY" value="311-1361-1-ND"/>
 </part>
-<part name="U5" library="Ava" deviceset="RADIOMETRIX-HX1" device=""/>
+<part name="U5" library="Ava" deviceset="RADIOMETRIX-HX1" device="">
+<attribute name="ALT-PART" value="HX1-144.390-3"/>
+</part>
 <part name="C12" library="resistor" deviceset="C-US" device="C0805" value="10nF">
 <attribute name="DIGIKEY" value="399-1158-1-ND"/>
 </part>
@@ -19163,10 +19164,12 @@ Typical applications:&lt;p&gt;
 <attribute name="DIGIKEY" value="CP-002AHPJCT-ND"/>
 </part>
 <part name="X1" library="con-coax" deviceset="BU-SMA-H" device="">
-<attribute name="DIGIKEY" value="CONSMA002-G-ND"/>
+<attribute name="DIGIKEY" value="CONSMA001-ND"/>
 </part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="SV1" library="con-lstb" deviceset="MA03-1" device=""/>
+<part name="SV1" library="con-lstb" deviceset="MA03-1" device="">
+<attribute name="DIGIKEY" value="952-2264-ND"/>
+</part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="V+" device=""/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="TAC_SWITCH" device="SMD">
@@ -19179,9 +19182,11 @@ Typical applications:&lt;p&gt;
 <part name="D1" library="diode" deviceset="DIODE-" device="MINIMELF" value="LL4148">
 <attribute name="DIGIKEY" value="568-1749-1-ND"/>
 </part>
-<part name="U3" library="Ava" deviceset="UBLOX_MAX" device=""/>
+<part name="U3" library="Ava" deviceset="UBLOX_MAX" device="">
+<attribute name="ALT-PART" value="UBLOX MAX-M8Q"/>
+</part>
 <part name="U8" library="SparkFun-Sensors" deviceset="BMP180" device="">
-<attribute name="DIGIKEY" value="828-1027-1-ND"/>
+<attribute name="SPARKFUN" value="COM-11823"/>
 </part>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
@@ -19232,15 +19237,23 @@ Typical applications:&lt;p&gt;
 </plain>
 <instances>
 <instance part="SH11" gate="G$1" x="76.2" y="40.64">
-<attribute name="DIGIKEY" x="76.2" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="SPARKFUN" x="76.2" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U9" gate="A" x="152.4" y="142.24">
+<instance part="U9" gate="A" x="152.4" y="142.24" smashed="yes">
 <attribute name="DIGIKEY" x="152.4" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="152.4" y="135.255" size="1.778" layer="95"/>
+<attribute name="ALT-PART" x="149.86" y="147.32" size="1.778" layer="96"/>
 </instance>
 <instance part="U9" gate="P" x="434.34" y="33.02" rot="MR0"/>
-<instance part="U9" gate="B" x="205.74" y="139.7"/>
-<instance part="U9" gate="C" x="264.16" y="137.16"/>
-<instance part="U9" gate="D" x="246.38" y="162.56"/>
+<instance part="U9" gate="B" x="205.74" y="139.7" smashed="yes">
+<attribute name="NAME" x="208.28" y="142.875" size="1.778" layer="95"/>
+</instance>
+<instance part="U9" gate="C" x="264.16" y="137.16" smashed="yes">
+<attribute name="NAME" x="266.7" y="140.335" size="1.778" layer="95"/>
+</instance>
+<instance part="U9" gate="D" x="246.38" y="162.56" smashed="yes">
+<attribute name="NAME" x="248.92" y="165.735" size="1.778" layer="95"/>
+</instance>
 <instance part="C2" gate="G$1" x="137.16" y="139.7">
 <attribute name="DIGIKEY" x="137.16" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
@@ -19409,7 +19422,9 @@ Typical applications:&lt;p&gt;
 <instance part="C7" gate="G$1" x="279.4" y="137.16" rot="R90">
 <attribute name="DIGIKEY" x="279.4" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="U5" gate="G$1" x="396.24" y="124.46" rot="MR90"/>
+<instance part="U5" gate="G$1" x="396.24" y="124.46" rot="MR90">
+<attribute name="ALT-PART" x="419.1" y="104.14" size="1.778" layer="96" rot="MR90"/>
+</instance>
 <instance part="C12" gate="G$1" x="365.76" y="114.3">
 <attribute name="DIGIKEY" x="365.76" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
@@ -19456,7 +19471,9 @@ Typical applications:&lt;p&gt;
 <attribute name="DIGIKEY" x="383.54" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND12" gate="1" x="233.68" y="152.4"/>
-<instance part="SV1" gate="G$1" x="149.86" y="160.02" rot="R180"/>
+<instance part="SV1" gate="G$1" x="149.86" y="160.02" rot="R180">
+<attribute name="DIGIKEY" x="149.86" y="160.02" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="GND7" gate="1" x="142.24" y="152.4"/>
 <instance part="P+3" gate="1" x="50.8" y="38.1"/>
 <instance part="S1" gate="S" x="17.78" y="175.26">
@@ -19466,12 +19483,16 @@ Typical applications:&lt;p&gt;
 <instance part="C14" gate="G$1" x="386.08" y="40.64">
 <attribute name="DIGIKEY" x="386.08" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="D1" gate="G$1" x="127" y="91.44" rot="R90">
+<instance part="D1" gate="G$1" x="127" y="91.44" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" x="127" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="126.5174" y="93.98" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="129.3114" y="93.98" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U3" gate="G$1" x="238.76" y="22.86" rot="R180"/>
+<instance part="U3" gate="G$1" x="238.76" y="22.86" rot="R180">
+<attribute name="ALT-PART" x="243.84" y="2.54" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="U8" gate="G$1" x="195.58" y="81.28">
-<attribute name="DIGIKEY" x="195.58" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="SPARKFUN" x="195.58" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="213.36" y="99.06"/>
 <instance part="GND20" gate="1" x="264.16" y="0"/>

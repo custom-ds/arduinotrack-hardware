@@ -2266,12 +2266,13 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="SH11" library="sparkfun-boards" package="UNO_R3_SHIELD" value="ARDUINO_R3_SHIELD" x="1.27" y="0" smashed="yes">
-<attribute name="DIGIKEY" value="SAM1112-32-ND" x="1.27" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="SPARKFUN" value="PRT-10007" x="1.27" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U9" library="linear" package="SO14" value="LMV324M" x="39.0525" y="26.3525" smashed="yes">
 <attribute name="NAME" x="33.782" y="30.1625" size="0.6096" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="44.8945" y="24.4475" size="1.27" layer="27" rot="R90"/>
-<attribute name="DIGIKEY" value="LT1679CS#PBF-ND" x="39.0525" y="26.3525" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY" value="MCP6L04T-E/SLCT-ND" x="39.0525" y="26.3525" size="1.778" layer="27" display="off"/>
+<attribute name="ALT-PART" value="MCP6L04T-E/SL" x="39.0525" y="26.3525" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C2" library="resistor" package="C0805" value="10nF" x="35.8775" y="18.415" smashed="yes">
 <attribute name="NAME" x="36.1315" y="17.0815" size="0.6096" layer="25" font="vector" rot="R180"/>
@@ -2604,7 +2605,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="41.5925" y="70.1675" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="46.0375" y="69.5325" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="47.3075" y="66.9925" size="1.27" layer="27" rot="R90"/>
-<attribute name="DIGIKEY" value="CONSMA002-G-ND" x="41.5925" y="70.1675" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY" value="CONSMA001-ND" x="41.5925" y="70.1675" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="SV1" library="con-lstb" package="MA03-1" value="" x="24.4475" y="31.4325" smashed="yes" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="24.4475" y="31.4325" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2613,6 +2614,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="24.4475" y="31.4325" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="21.336" y="34.925" size="0.6096" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="27.3685" y="27.6225" size="1.27" layer="27" ratio="10" rot="R90"/>
+<attribute name="DIGIKEY" value="952-2264-ND" x="24.4475" y="31.4325" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="S1" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD" value="" x="22.225" y="17.145" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="SWCH-08247" x="22.225" y="17.145" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2634,7 +2636,7 @@ design rules under a new name.</description>
 <element name="U8" library="SparkFun-Sensors" package="BMP180" value="BMP180" x="11.1125" y="66.9925" smashed="yes" rot="R180">
 <attribute name="NAME" x="12.795" y="64.3575" size="0.6096" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="13.1125" y="70.3675" size="1.27" layer="27" rot="R180"/>
-<attribute name="DIGIKEY" value="828-1027-1-ND" x="11.1125" y="66.9925" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPARKFUN" value="COM-11823" x="11.1125" y="66.9925" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R19" library="resistor" package="R0805" value="4.7k" x="55.88" y="52.07" smashed="yes">
 <attribute name="DIGIKEY" value="311-4.7KARCT-ND" x="55.88" y="52.07" size="1.778" layer="27" display="off"/>
